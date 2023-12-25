@@ -67,15 +67,15 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Cello
         description: ''
         percent: 60
-        icon: person-hiking
+        icon: cat
         icon_pack: fas
-      - name: Cats
+      - name: Hiking
         description: ''
         percent: 100
-        icon: cat
+        icon: person-hiking
         icon_pack: fas
       - name: Photography
         description: ''
@@ -117,5 +117,4 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Xunyi Jiang is an undergraduate of Data Science at Southern University of Science and Technology (SUSTech). She is interested in self-supervised learning, computer vision and natural language processing. She is currently working on self-supervised learning for computer vision and natural language processing. She joined into Yifang Ma's research group in 2021. Participated in the [self-supervised seminar](https://niusj03.github.io/23summer/) and will join into the NUS-WING group in Jan. 2024. She is also a principle cellist of the SUSTech Harmonic Symphonic Ochestra.
