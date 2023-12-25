@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Xunyi Jiang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 江迅一
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Xunyi
+last_name: Jiang
 
 # Status emoji
 status:
@@ -17,15 +17,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Undergraguate of Data Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Southern University of Science and Technology (SUSTech)
+    url: https://www.sustech.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include self-supervised learning, computer vision and natural language processing.
 
 # Interests to show in About widget
 interests:
@@ -36,15 +36,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Undergraduate in Data Science
+      institution: Southern University of Science and Technology
+      year: 2020-2024
+    - course: High School
+      institution: No.1 Affiliated Middle School of Central China Normal University
+      year: 2017-2020
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
