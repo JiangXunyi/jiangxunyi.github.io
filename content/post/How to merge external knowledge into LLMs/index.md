@@ -37,8 +37,7 @@ tags:
   - 开源
 
 categories:
-  - Demo
-  - 教程
+  - Study Notes
 ---
 
 
@@ -78,7 +77,7 @@ As for the knowledge graph encoding part, KECRS adopted R-GCN \citet{schlichtkru
 $$
     \mathbf{h}_i^{(l+1)} = \sigma(\sum_{r\in R}\sum_{j \in N_i^r} \frac{1}{c_{i,r}}\mathbf{W}_r^{(l)}\mathbf{h}_j^{(l)} + \mathbf{W}_0^{(l)}\mathbf{h}_i^{(l)})
 $$
-where $\mathbf{h}_i^{(l+1)} \in R^{d_k}$  denotes the embedding of the entity $i$ at $l+1$-th layer, and $d_k$ denotes the dimension of the entity embedding at ($l$+1)-th layer. $N_i^r$ denotes the neighbor set of entity $i$ under relation $r \in R$. $\mathbf{W_r^{(l)}}$ is a learnable relation-specific transformation matrix for the embedding of neighboring nodes under relation $r$, and $\mathbf{W_0^{(l)}}$ is a learnable transformation matrix for the self-connection relation of the embedding of entity $i$. $c_{i,r}$ is the normalization constant which is $|N_i^r|$ here. After perform $L$ layers, KG encoding module obtains multiple representations for each entity $i$, namely $\{\mathbf{h}_i^{(0)},..., \mathbf{h}_i^{(L)}\}$. To intergrate different depth information, KECRS adoptes layer-aggregation mechanism to compute the representation $\mathbf{h}_i$ as follows,
+where $\mathbf{h}\_i^{(l+1)} \in R^{d\_k}$  denotes the embedding of the entity $i$ at $l+1$-th layer, and $d_k$ denotes the dimension of the entity embedding at ($l$+1)-th layer. $N_i^r$ denotes the neighbor set of entity $i$ under relation $r \in R$. $\mathbf{W_r^{(l)}}$ is a learnable relation-specific transformation matrix for the embedding of neighboring nodes under relation $r$, and $\mathbf{W_0^{(l)}}$ is a learnable transformation matrix for the self-connection relation of the embedding of entity $i$. $c_{i,r}$ is the normalization constant which is $|N_i^r|$ here. After perform $L$ layers, KG encoding module obtains multiple representations for each entity $i$, namely $\{\mathbf{h}_i^{(0)},..., \mathbf{h}_i^{(L)}\}$. To intergrate different depth information, KECRS adoptes layer-aggregation mechanism to compute the representation $\mathbf{h}_i$ as follows,
 \begin{equation}
     \mathbf{h}_i = \mathbf{W}_h([\mathbf{h}_i^{(0)}, \mathbf{h}_i^{(1)}, ...,\mathbf{h}_i^{(L)}]) + \mathbf{b}_h
 \end{equation}
