@@ -38,6 +38,8 @@ tags:
 
 categories:
   - Study Notes
+
+enable_math: True
 ---
 
 
