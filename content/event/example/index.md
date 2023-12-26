@@ -1,28 +1,28 @@
 ---
-title: Example Talk
+title: Self-supervised Seminar
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: SUSTech Self-supervised Seminar
+event_url: https://niusj03.github.io/23summer/
 
-location: Hugo Blox Builder HQ
+location: Southern University of Science and Technology
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: 1088 Xueyuan Rd
+  city: Shenzhen
+  region: Guangdong
+  postcode: '518055'
+  country: China
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: An talk of self-supervised learning.
+abstract: This seminar focuses primarily on important topics in deep learning, specifically self-supervised learning. The topics will range from an introduction to self-supervised learning to the latest advancements. We also welcome individuals from related fields to share their insights, such as transfer learning, meta-learning, and so on. Depending on our progress, some signigicant and parctical topics like optimizers and backbones may also incorporated as additional sessions.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2023-08-01T13:00:00Z'
+date_end: '2023-08-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2023-12-25T00:00:00Z'
 
 authors: []
 tags: []
@@ -30,9 +30,9 @@ tags: []
 # Is this a featured talk? (true/false)
 featured: false
 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+#   focal_point: Right
 
 links:
   - icon: twitter
@@ -59,15 +59,3 @@ slides: example
 projects:
   - example
 ---
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
