@@ -203,3 +203,39 @@ As for the second issue, research, including studies like RecInDial \citet{wangR
 
 Developing methods to infuse fine-grained, domain-specific knowledge into LLMs will be crucial, especially in private or highly specialized fields. Further exploration into small-sample learning and agent-based strategies is recommended to enhance the efficiency and applicability of CRS in diverse contexts. Additionally, the integration of knowledge graphs should be further explored, not only to improve performance metrics but also to provide more contextually relevant and personalized recommendations. Experimentation with advanced computational techniques, such as parameter-efficient fine-tuning methods, could yield more resource-efficient ways to adapt LLMs to specific CRS tasks. Lastly, future work could benefit from a deeper investigation into the synergy between conversational agents and human-like interaction patterns, aiming to create more intuitive and user-friendly conversational interfaces. This comprehensive approach will propel the development of more sophisticated, efficient, and user-centric CRS.
 
+## References
+Sure, here are the references reformatted in the style you requested:
+
+References
+
+[1] Noah Shinn et al. "Reflexion: Language Agents with Verbal Reinforcement Learning." arXiv preprint arXiv:2303.11366 (2023).
+
+[2] Aman Madaan et al. "Self-Refine: Iterative Refinement with Self-Feedback." arXiv preprint arXiv:2303.17651 (2023).
+
+[3] Shunyu Yao et al. "ReAct: Synergizing Reasoning and Acting in Language Models." arXiv preprint arXiv:2210.03629 (2023).
+
+[4] Lei Wang et al. "A Survey on Large Language Model based Autonomous Agents." arXiv preprint arXiv:2308.11432 (2023).
+
+[5] Yujia Qin et al. "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs." arXiv preprint arXiv:2307.16789 (2023).
+
+[6] Timo Schick et al. "Toolformer: Language Models Can Teach Themselves to Use Tools." arXiv preprint arXiv:2302.04761 (2023).
+
+[7] Elad Ben Zaken et al. "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models." arXiv preprint arXiv:2106.10199 (2022).
+
+[8] Xiao Liu et al. "GPT Understands, Too." arXiv preprint arXiv:2103.10385 (2023).
+
+[9] Xu Huang et al. "Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations." arXiv preprint arXiv:2308.16505 (2023).
+
+[10] Xiang Lisa Li and Percy Liang. "Prefix-tuning: Optimizing continuous prompts for generation." arXiv preprint arXiv:2101.00190 (2021).
+
+[11] Neil Houlsby et al. "Parameter-efficient transfer learning for NLP." International Conference on Machine Learning, pages 2790–2799 (2019).
+
+[12] Alec Radford et al. "Learning transferable visual models from natural language supervision." International Conference on Machine Learning, pages 8748–8763 (2021).
+
+[13] Ting Chen et al. "A simple framework for contrastive learning of visual representations." International Conference on Machine Learning, pages 1597–1607 (2020).
+
+[14] Shuming Ma et al. "Bag-of-words as target for neural machine translation." arXiv preprint arXiv:1805.04871 (2018).
+
+[15] Michael Schlichtkrull et al. "Modeling relational data with graph convolutional networks." The Semantic Web: 15th International Conference, ESWC 2018, Heraklion, Crete, Greece, June 3–7, 2018, Proceedings, volume 15, pages 593–607 (2018).
+
+[16] Rajdeep Sarkar et al. "Suggest me a movie for tonight: Leveraging Knowledge Graphs for Conversational Recommendation." Proceedings of the 28th International Conference on Computational Linguistics, pages 4179–4189 (2020).
