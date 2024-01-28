@@ -1,5 +1,5 @@
 ---
-title: The Usefull Command Lines
+title: The Useful Command Lines
 subtitle: 
 
 # Summary for listings and search engines
@@ -43,7 +43,7 @@ enable_math: True
 ---
 
 
-# The Usefull Command Lines 
+# The Useful Command Lines 
 **Xunyi Jiang**
 ## 永久添加到 PATH
 
