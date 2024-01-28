@@ -71,3 +71,10 @@ enable_math: True
 
 
 ## Website
+
+Run the `.html` on my computer
+
+```bash
+hugo server
+```
+
