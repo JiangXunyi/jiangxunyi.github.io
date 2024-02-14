@@ -78,6 +78,12 @@ Run the `.html` on my computer
 hugo server
 ```
 
+## Git
+Update the local repository with the remote repository
+```bash
+ git push --force origin master
+```
+
 ## HCP
 This part is the useful command lines for HCP, mainly refer to this [tutorial](https://help.nscc.sg/wp-content/uploads/Workshop-Handbook_ASPIRE2A-Mar2023.pdf)
 
