@@ -138,10 +138,13 @@ cd scratch/llama2_inspire
 
 # 修改为直接指定解释器路径
 /home/users/nus/e1325135/miniconda3/envs/llms/bin/python fine_tune_llama2.py
-
-
 ```
 
+### 4. Submit the job and job status
+```bash
+qsub fine_tuning.sh
+qstat
+```
 
 
 
