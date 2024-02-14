@@ -78,3 +78,71 @@ Run the `.html` on my computer
 hugo server
 ```
 
+## HCP
+This part is the useful command lines for HCP, mainly refer to this [tutorial](https://help.nscc.sg/wp-content/uploads/Workshop-Handbook_ASPIRE2A-Mar2023.pdf)
+
+### 1. Connect to HCP
+I use vscode to connect to HCP, which need NUS web VPN. 
+
+### 2. Create Conda Environment
+Before I run the code, I need to create a conda environment. The official website of [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install.html)
+
+```bash
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+``` 
+After installing
+```bash
+~/miniconda3/bin/conda init bash
+~/miniconda3/bin/conda init zsh
+```
+
+Create a new environment
+```bash 
+conda create -n myenv python=3.10
+```
+
+Activate the environment
+```bash
+conda activate myenv
+```
+
+### 3. Bash Script for job submission
+```bash
+#!/bin/bash
+#PBS -N LLaMA2_FineTuning
+#PBS -l select=8:ncpus=128:mem=440G:mpiprocs=128:ompthreads=1
+#PBS -l walltime=3:00:00
+#PBS -j oe
+#PBS -o fine-tuning-output.txt
+#PBS -P xunyi
+#PBS -q ai
+
+# 加载Anaconda环境
+echo "Python interpreter: $(which python)"
+module load cray-python/3.9.7.1
+# source activate /home/users/nus/e1325135/miniconda3/envs/llms
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate llms
+echo $CONDA_DEFAULT_ENV
+
+
+# 进入你的工作目录（如果有的话）
+cd scratch/llama2_inspire
+
+# 执行fine-tuning脚本，这里假设是一个Python脚本
+# 你需要根据你的具体情况修改脚本名称和路径，以及传递给它的参数
+# python fine_tune_llama2.py 
+
+# 修改为直接指定解释器路径
+/home/users/nus/e1325135/miniconda3/envs/llms/bin/python fine_tune_llama2.py
+
+
+```
+
+
+
+
+
