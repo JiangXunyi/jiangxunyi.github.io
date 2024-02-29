@@ -152,6 +152,27 @@ qsub fine_tuning.sh
 qstat
 ```
 
+## tmux command lines
+- Create a new tumx session
+  ```bash
+  tmux new -s <session-name>
+  ```
+
+- Look up the existed sessions
+  ```bash
+  tmux list-session
+  ```
+
+- Detach the session
+Using `exit` or `ctrl + b d` to exit
+
+- Attach the session
+  ```bash
+  tmux attach -t <session-id>
+  tmux attach -t <session-name>
+  ```
+
+  
 
 
 
