@@ -153,6 +153,31 @@ But I encounter with the problem that the large files have been tracked by git, 
 git filter-branch --index-filter 'git rm --cached --ignore-unmatch data/dbpedia/kg.pkl' --prune-empty -- --all
 ```
 
+### Uninstall lfs
+Cause my files are too large, so I just ignore the files in the `dataset` folder. But I have already installed `lfs` in my computer. I can uninstall it with the following command
+```bash
+git lfs uninstall
+```
+
+After uninstall, I need to clear the cache with the following command
+```bash
+git rm -r --cached .
+```
+Since in the `.gitignore` file, we already ignore the dataset folder.
+Use 
+```bash
+git add .
+```
+
+However, I still have the large files in the git commit history, so I just remove `.git` and init a new git repo
+```bash
+rm -rf .git
+git init
+```
+
+Finally, I ignore the large files in the original repo and push my code to the remote repo. (Actually during this process, I encouter with the secret leak error and I need to modify my code with personal information)
+
+
 ## HCP
 This part is the useful command lines for HCP, mainly refer to this [tutorial](https://help.nscc.sg/wp-content/uploads/Workshop-Handbook_ASPIRE2A-Mar2023.pdf)
 
