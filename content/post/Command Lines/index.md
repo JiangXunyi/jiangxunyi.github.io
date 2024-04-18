@@ -83,6 +83,40 @@ Update the local repository with the remote repository
 ```bash
  git push --force origin master
 ```
+### Add remote of the existing local repository
+```bash
+git remote add origin
+```
+
+### Handle large files with git
+First we can install `git-lfs` with the following command
+```bash
+brew install git-lfs
+```
+Then we can track the large files with the following command
+```bash
+git lfs track "*.psd"
+# or 
+git lfs track "*.pkl"
+```
+After any invocation of `git-lfs-track(1)` or `git-lfs-untrack(1)`, you _must
+commit changes to your `.gitattributes` file_. This can be done by running:
+
+```bash
+$ git add .gitattributes
+$ git commit -m "track *.psd files using Git LFS"
+```
+> _Tip:_ if you have large files already in your repository's history, `git lfs
+> track` will _not_ track them retroactively. To migrate existing large files
+> in your history to use Git LFS, use `git lfs migrate`. For example:
+>
+> ```
+> $ git lfs migrate import --include="*.psd" --everything
+> ```
+>
+> **Note that this will rewrite history and change all of the Git object IDs in your
+> repository, just like the export version of this command.**
+>
 
 ## HCP
 This part is the useful command lines for HCP, mainly refer to this [tutorial](https://help.nscc.sg/wp-content/uploads/Workshop-Handbook_ASPIRE2A-Mar2023.pdf)
