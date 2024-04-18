@@ -87,9 +87,19 @@ Update the local repository with the remote repository
 ```bash
 git remote add origin
 ```
+If the exsiting remote repo is not what I want to contribute, I can change the remote repo with the following command
+```bash
+git remote set-url origin <url>
+```
+Push your code to the remote repository
+```bash
+git branch -M main
+git push -u origin main
+```
+
 
 ### Handle large files with git
-First we can install `git-lfs` with the following command
+If we want to push and track these files, we can use  `lfs` to solve this problem. First we can install `git-lfs` with the following command
 ```bash
 brew install git-lfs
 ```
@@ -98,6 +108,10 @@ Then we can track the large files with the following command
 git lfs track "*.psd"
 # or 
 git lfs track "*.pkl"
+```
+If you want to untrack the lsf
+```bash
+git lfs untrack "*.pkl"
 ```
 After any invocation of `git-lfs-track(1)` or `git-lfs-untrack(1)`, you _must
 commit changes to your `.gitattributes` file_. This can be done by running:
@@ -117,6 +131,27 @@ $ git commit -m "track *.psd files using Git LFS"
 > **Note that this will rewrite history and change all of the Git object IDs in your
 > repository, just like the export version of this command.**
 >
+
+If some are extremely big and I don't want to track them, I can use the following command. For instance, I want to ignore these two file: data/dbpedia/kg.pkl
+data/dbpedia/mappingbased-objects_lang=en.ttl
+- add the filename into the `.gitignore` file
+- add `.gitignore` file into the git repo 
+```bash
+git add .gitignore
+```
+- commit the changes
+```bash
+git commit -m "add .gitignore file"
+```
+- push the changes to the remote repo
+```bash
+git push origin main
+```
+
+But I encounter with the problem that the large files have been tracked by git, I can use the following command to clean the history of the git repo
+```bash
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch data/dbpedia/kg.pkl' --prune-empty -- --all
+```
 
 ## HCP
 This part is the useful command lines for HCP, mainly refer to this [tutorial](https://help.nscc.sg/wp-content/uploads/Workshop-Handbook_ASPIRE2A-Mar2023.pdf)
