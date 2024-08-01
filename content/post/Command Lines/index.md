@@ -266,6 +266,23 @@ Using `exit` or `ctrl + b d` to exit
   tmux attach -t <session-name>
   ```
 
+## Download file from remote server
+```bash
+ssh e1325135@aspire2a.nus.edu.sg
+Download file: scp e1325135@aspire2a.nus.edu.sg:~/scratch/scripts/ProjectCode/DatabaseCreationCodes/DatabaseCreation.ipynb /Users/xunyijiang/Documents/StudyMaterials/2024Spring/CRS/explainableCRS/ProjectCode/DatabaseCreationCodes/DatabaseCreationCodeFullVersion.ipynb
+
+scp e1325135@aspire2a.nus.edu.sg:~/scratch/scripts/ProjectCode/dataset/restuls/data0416/my_info_v3.csv /Users/xunyijiang/Documents/StudyMaterials/2024Spring/CRS/explainableCRS/ProjectCode/dataset/results/data0416/movie_db.csv
+```
+
+## 查看GPU的线程使用情况
+```bash
+fuser -v /dev/nvidia* 
+```
+## 批量删除显卡4的进程
+```bash
+fuser -v /dev/nvidia4 |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' |  sh
+```
+
   
 
 
