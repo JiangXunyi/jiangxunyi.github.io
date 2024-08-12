@@ -79,6 +79,18 @@ hugo server
 ```
 
 ## Git
+Some useful command lines for git(You'd better remember it)
+```bash
+git clone <repo_url> # clone
+git add . # add file to track
+git commit -m "This is the comment for this commit" # commit the change
+git push origin main # push to remote
+git push origin feature-branch # push to the certain branch
+git branch -b new_branch_name # create a new branch and check to this branch
+git checkout brach_name
+git branch new_branch_name # creat a new branch without checkout.
+```
+
 Update the local repository with the remote repository
 ```bash
  git push --force origin master
