@@ -17,10 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Undergraguate of Data Science
+role: Master of Science in CS @ UCSD <br> BS in Data Science @ SUSTech
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: University of California, San Diego
+    url: https://ucsd.edu
   - name: Southern University of Science and Technology (SUSTech)
     url: https://www.sustech.edu.cn
 
@@ -36,7 +38,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Undergraduate in Data Science
+    - course: Master of Science in Computer Science 
+      institution: University of California, San Diego
+      year: 2024-2026(Estimated)
+    - course: BS in Data Science
       institution: Southern University of Science and Technology
       year: 2020-2024
     - course: High School
@@ -97,15 +102,16 @@ social:
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+      # ADD: if I have google schoolar, then I need to move the comment.
+  # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  #   icon_pack: fas
+  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/JiangXunyi
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/xunyi-jiang
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -117,4 +123,6 @@ social:
 highlight_name: true
 ---
 
-Xunyi Jiang is an undergraduate of Data Science at Southern University of Science and Technology (SUSTech). She is interested in self-supervised learning, computer vision and natural language processing. She is currently working on self-supervised learning for computer vision and natural language processing. She joined into Yifang Ma's research group in 2021. Participated in the [self-supervised seminar](https://niusj03.github.io/23summer/) and will join into the NUS-WING group in Jan. 2024. She is also a principle cellist of the SUSTech Harmonic Symphonic Ochestra.
+Xunyi Jiang is an graduate student of Computer Science at University of California, San Diego. She finished her undergraduate study at SUSTech(Southern University of Science and Technology, Shenzhen). She graduated with distinction, being recognized as one of the top ten graduates from the School of Science at SUSTech.
+
+She is interested in self-supervised learning, computer vision and natural language processing. She is currently working on self-supervised learning for computer vision and natural language processing. She joined into Yifang Ma's research group in 2021. Participated in the [self-supervised seminar](https://niusj03.github.io/23summer/) and joined into the NUS-WING group in Jan. 2024. She is also a principle cellist of the SUSTech Harmonic Symphonic Ochestra.
