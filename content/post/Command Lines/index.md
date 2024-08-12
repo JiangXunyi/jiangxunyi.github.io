@@ -295,6 +295,24 @@ fuser -v /dev/nvidia* 
 fuser -v /dev/nvidia4 |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' |  sh
 ```
 
+## Remote SSH
+1. Why I need SSH?
+- 安全性更高：SSH 使用加密密钥对（私钥和公钥）来认证，而不是用户名和密码。这使得你的操作更加安全，特别是在公共网络上。
+- 免密登录：一旦你设置好了 SSH 密钥并将公钥添加到 GitHub 上，你就不需要每次操作都输入用户名和密码。这极大地简化了操作。
+- 避免 HTTP 限制：在某些网络环境中，HTTP 可能被限制或会遇到如你之前所见的 HTTP2 framing 层的问题。SSH 通常不受这些限制。
+
+2. How to set
+- First we need to generate ssh key:
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com" # jiangxy2020@mail.sustech.edu.cn
+# then it will store the generated key into  `~/.ssh/id_ed25519`
+cat ~/.ssh/id_ed25519.pub # get the generated public key
+```
+
+After finish all this set on my own laptop, I need to set up at GitHub.
+Settings > SSH > Add new key.
+I use this method to solve the problem of unsuccessful push.
+
   
 
 
