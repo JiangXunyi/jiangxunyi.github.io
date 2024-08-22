@@ -92,6 +92,9 @@ git branch new_branch_name # creat a new branch without checkout.
 git pull origin <branch_name> # pull the revision of branch
 git log -p -1 # check the last commit 
 # after check, how to quit in ternimal? q
+git add remote <ssh>
+git checkout -b <branch_name> # checkout and new a branch
+git merge <branch_name> # if we want to merge 2 branch, we need to first check to the branch we want to mergem then use this command line to merge
 ```
 
 
