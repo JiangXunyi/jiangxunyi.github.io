@@ -89,7 +89,11 @@ git push origin feature-branch # push to the certain branch
 git branch -b new_branch_name # create a new branch and check to this branch
 git checkout brach_name
 git branch new_branch_name # creat a new branch without checkout.
+git pull origin <branch_name> # pull the revision of branch
+git log -p -1 # check the last commit 
+# after check, how to quit in ternimal? q
 ```
+
 
 Update the local repository with the remote repository
 ```bash
@@ -312,6 +316,8 @@ cat ~/.ssh/id_ed25519.pub # get the generated public key
 After finish all this set on my own laptop, I need to set up at GitHub.
 Settings > SSH > Add new key.
 I use this method to solve the problem of unsuccessful push.
+
+
 
   
 

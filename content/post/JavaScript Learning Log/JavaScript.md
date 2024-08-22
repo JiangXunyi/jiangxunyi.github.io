@@ -134,3 +134,57 @@ npm run dev
 ```
 Then I can run the project successfully.
 
+# JavaScript Grammar
+## Grammar and types
+- comment: // /* */
+### Declarations
+- var: function-scoped, declares a variable, optionally initializing it to a value.
+- let: block-scoped, declares a block-scoped, local variable, optionally initializing it to a value.
+- const: block-scoped, declares a block-scoped, <span style="color:pink">read-only</span> named constant.
+
+identifier: A name that identifies a variable, function, or property. Starts with a letter, underscore, or dollar sign. Subsequent characters can also be digits (0-9). Case sentitive.
+
+declare variables to unpack values:
+你可以使用解构赋值语法来声明变量，并从一个对象中解包值。具体来说，`const { bar } = foo`; 这段代码会从对象 foo 中取出 bar 这个属性的值，并将这个值赋给一个名为 bar 的变量。
+
+以下是详细解释：
+
+假设有一个对象 foo，它的结构可能是这样的：const foo = { bar: 42, baz: 'hello' };。
+当你写 const { bar } = foo; 时，JavaScript 会找到对象 foo 中名为 bar 的属性，并将它的值（在这个例子中是 42）赋给一个新的变量 bar。
+结果是，你现在有了一个变量 bar，它的值是 42，与 foo 对象中的 bar 属性的值相同。
+
+### Data types 就跟python类似
+With all other operators, JavaScript does not convert numeric values to strings. For example:
+
+JS
+Copy to Clipboard
+"37" - 7; // 30
+"37" * 7; // 259
+
+# Development
+If I want to check the sessionStorage, I can use `option + cmd + i` to open the console at Google Chrome. Then `Application > Storage > sessionStorage > key`
+I find the data is like: 
+```jsonr
+{
+  "项目集看板-项目新增": "Y",
+  "项目集-创建": "Y",
+  "项目集-编辑": "Y",
+  "项目集-启动": "Y",
+  "角色看板-详情": "Y",
+  "角色看板-删除": "Y",
+  "付款录入及汇总-退回": "Y",
+  "付款与发票-部门数据": "Y",
+  "首页-项目经理首页": "Y",
+  "首页-办公室首页": "Y"
+}
+```
+then I use `shift + cmd + F` to search globally to find out where set this item. I use `sessionStorage.setItem(` to search.
+Then I found the code:
+```JavaScript
+routeData = Object.assign({}, obj)
+      if (routeData !== null) {
+        Vue.set(asyncRoutes[0], 'hidden', routeData['预算编制-菜单'] !== 'Y')
+        Vue.set(asyncRoutes[1], 'hidden', routeData['项目库-菜单'] !== 'Y')
+      }
+```
+I can use `Vue.set` to set the value of the object.
