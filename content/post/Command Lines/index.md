@@ -264,6 +264,10 @@ cd scratch/llama2_inspire
 qsub fine_tuning.sh
 qstat
 ```
+As for slurm job, we can use the following command
+```bash
+squeue -u $USER
+```
 
 ## tmux command lines
 - Create a new tumx session
@@ -321,6 +325,18 @@ Settings > SSH > Add new key.
 I use this method to solve the problem of unsuccessful push.
 
 
+
+## 同步远程文件夹
+```bash
+rsync -avz --delete /path/to/local/project/ ubuntu@ec2-35-94-87-47.us-west-2.compute.amazonaws.com:pa1
+```
+rsync -avz --delete /Users/xunyijiang/Documents/AStudyUCSD/2024Fall/CSE260/PAs/PA1/pa1-faz007-xuj003/ ubuntu@172.31.54.108:~/pa1
+
+
+## brew 查看路径
+```bash
+brew info openblas
+```
 
   
 
