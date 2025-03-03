@@ -52,81 +52,109 @@ sections:
       columns: '1'
   - block: experience
     content:
-      title: Experience
+      title: Research
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
-      # date_format: Jan 2006
-      # # Experiences.
-      # #   Add/remove as many `experience` items below as you like.
-      # #   Required fields are `title`, `company`, and `date_start`.
-      # #   Leave `date_end` empty if it's your current employer.
-      # #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      # items:
-      #   - title: CEO
-      #     company: GenCoin
-      #     company_url: ''
-      #     company_logo: org-gc
-      #     location: California
-      #     date_start: '2021-01-01'
-      #     date_end: ''
-      #     description: |2-
-      #         Responsibilities include:
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Research Assistant
+          company: University of California, San Diego
+          company_url: https://ucsd.edu/
+          company_logo: ucsd  
+          location: San Diego, CA
+          date_start: '2025-02-20'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
 
-      #         * Analysing
-      #         * Modelling
-      #         * Deploying
-      #   - title: Professor of Semiconductor Physics
-      #     company: University X
-      #     company_url: ''
-      #     company_logo: org-x
-      #     location: California
-      #     date_start: '2016-01-01'
-      #     date_end: '2020-12-31'
-      #     description: Taught electronic engineering and researched semiconductor physics.
+              A comprehensive experiments for catasrophic forgetting in LLMs with task-specific fine-tuning.
+              * Deployed PEFT and LoRA for efficient fine-tuning.
+              * Using Bayesian methods to analyze the catasrophic forgetting.
+        # - title: Data Engineer Intern
+        #   company: Shanghai Harbor eLogistics Software Co., Ltd
+        #   company_url: https://www.shharbor.com/
+        #   company_logo: 
+        #   location: Shanghai, China
+        #   date_start: '2024-07-01'
+        #   date_end: '2024-09-30'
+        #   description: |2-
+        #       Responsibilities include:
+
+        #       * Contributed to the development of the empty container weekly report system by writing complex MySQL queries and optimizing the data reporting process, enhancing the accuracy of scheduling decisions and improving operational efficiency.
+        #       * Took responsibility for frontend design and maintenance in SIPG Group's project management system, utilizing the Vue.js framework for development and bug fixing. The improvements in UI/UX significantly enhanced system responsiveness and user experience.
+        #       * Strategically supported business units in the BI product selection process, improving production efficiency and data management capabilities, and driving the group's digital transformation.
+
+        - title: Research Assistant
+          company: National University of Singapore
+          company_url: https://www.comp.nus.edu.sg/
+          company_logo: nus
+          location: Singapore
+          date_start: '2024-01-01'
+          date_end: '2024-05-31'
+          description: |2-
+              Responsibilities include:
+
+              CLUE-ReDial: Leveraging Large Language Models for Generating Comprehensive Dataset with UrLs and
+              Explanation
+              * Designed and implemented a multi-agent framework leveraging RAG and LLMs, achieving a 4× efficiency boost in generating interpretable recommendation explanations. Expanded the ReDial dataset to 40k high-quality utterances for fine-tuning conversational LLMs, enhancing domain-specific accuracy in movie recommendations.
+              * Designed a multi-agent framework, leveraging an early-stop module in the self-refine process to generate comprehensive and interpretable recommendation explanations, boosting transparency in recommendations.
+              * Applied web crawling techniques to create a movie dataset containing 25k entries, using Python, PyTorch, LaTeX, and the Singapore National High-Performance Computing (HPC) platform.
+
+        - title: Research Assistant
+          company: Yifang Ma's Research Group
+          company_url: https://www.sustech.edu.cn/yifangma/
+          company_logo: 
+          location: Shenzhen
+          date_start: '2022-06-01'
+          date_end: '2023-08-31'
+          description: |2-
+              Responsibilities include:
+              Worked on the OpenAlex and ORCID databases to analyze the relationship between university rankings and the mobility of researchers.
+              * Extracted education and hiring networks from research paper publications.
+              * Ranked Chinese universities based on extracted database information.
+              * Implemented a Multi-Variate Regression (MVR) model for ranking.
+              * Applied Markov Chain Monte Carlo (MCMC) and burn-in techniques to ensure the stability of convergence.
+              * Visualized researcher mobility and constructed a null model to compare the hierarchical structures of research institutions.
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
-    #   subtitle:
-    #   # Date format: https://docs.hugoblox.com/customization/#date-format
-    #   date_format: Jan 2006
-    #   # Accomplishments.
-    #   #   Add/remove as many `item` blocks below as you like.
-    #   #   `title`, `organization`, and `date_start` are the required parameters.
-    #   #   Leave other parameters empty if not required.
-    #   #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-    #   items:
-    #     - certificate_url: https://www.coursera.org
-    #       date_end: ''
-    #       date_start: '2021-01-25'
-    #       description: ''
-    #       icon: coursera
-    #       organization: Coursera
-    #       organization_url: https://www.coursera.org
-    #       title: Neural Networks and Deep Learning
-    #       url: ''
-    #     - certificate_url: https://www.edx.org
-    #       date_end: ''
-    #       date_start: '2021-01-01'
-    #       description: Formulated informed blockchain models, hypotheses, and use cases.
-    #       icon: edx
-    #       organization: edX
-    #       organization_url: https://www.edx.org
-    #       title: Blockchain Fundamentals
-    #       url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    #     - certificate_url: https://www.datacamp.com
-    #       date_end: '2020-12-21'
-    #       date_start: '2020-07-01'
-    #       description: ''
-    #       icon: datacamp
-    #       organization: DataCamp
-    #       organization_url: https://www.datacamp.com
-    #       title: 'Object-Oriented Programming in R'
-    #       url: ''
-    # design:
-    #   columns: '2'
+      subtitle:
+      # Date format: https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - certificate_url: 
+          date_end: ''
+          date_start: '2023-10-01'
+          description: ''
+          icon: 
+          organization: Southern University of Science and Technology
+          organization_url: https://www.sustech.edu.cn
+          title: National Scholarship, 2023
+          url: ''
+        - certificate_url:
+          date_end: ''
+          date_start: '2024-06-01'
+          description: Top 10 undergraduates of the School of Science and Candidate of Top Ten Graduates
+          icon: 
+          organization: Southern University of Science and Technology
+          organization_url: https://www.sustech.edu.cn
+          title: Top 10 undergraduates of the School of Science
+          url: 
+    design:
+      columns: '2'
   - block: collection
     id: posts
     content:

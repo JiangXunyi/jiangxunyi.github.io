@@ -55,38 +55,38 @@ education:
 skills:
   - name: Technical
     items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
+      - name: LLMs, PEFT, Transformers🤗, PyTorch
         description: ''
         percent: 100
+        icon: python
+        icon_pack: fab
+      - name: Triton, CUDA, C++, Git, Docker
+        description: ''
+        percent: 90
         icon: chart-line
         icon_pack: fas
-      - name: SQL
+      - name: Data visualization, JavaScript, SQL, Data Dashboard, Pandas, Numpy, R
         description: ''
-        percent: 40
+        percent: 90
         icon: database
         icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Cello
+      - name: Cello & Piano
         description: ''
-        percent: 60
+        percent: 90
         icon: cat
         icon_pack: fas
       - name: Hiking
         description: ''
-        percent: 100
+        percent: 90
         icon: person-hiking
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 80
+        percent: 90
         icon: camera-retro
         icon_pack: fas
 
@@ -113,7 +113,7 @@ social:
     link: https://github.com/JiangXunyi
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/xunyi-jiang
+    link: https://www.linkedin.com/in/xunyi-jiang
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -125,17 +125,13 @@ social:
 highlight_name: true
 ---
 
-<!-- Xunyi Jiang is an graduate student of Computer Science at University of California, San Diego. She finished her undergraduate study at SUSTech(Southern University of Science and Technology, Shenzhen). She graduated with distinction, being recognized as one of the top ten graduates from the School of Science at SUSTech.
-
-She is interested in self-supervised learning, computer vision and natural language processing. She is currently working on self-supervised learning for computer vision and natural language processing. She joined into Yifang Ma's research group in 2021. Participated in the [self-supervised seminar](https://niusj03.github.io/23summer/) and joined into the NUS-WING group in Jan. 2024. She is also a principle cellist of the SUSTech Harmonic Symphonic Ochestra. -->
-
 Hi! 👋🏻 I am Xunyi Jiang, a master student of Computer Science and Engineering at [UCSD](https://ucsd.edu). I graduated from [SUSTech](https://www.sustech.edu.cn), being recognized as one of the top ten graduates from the School of Science at SUSTech and Oustanding Thesis.
 
 > *Physicists seek order in chaos through equations, while statisticians find meaning where equations fail.*
 
 My research journey began with using statistical models to explain the development of the scientific community—science for science—under the guidance of Professor [Yifang Ma](https://scholar.google.com/citations?user=v6f9Fy8AAAAJ&hl=en), related with [hierarchy](https://arxiv.org/abs/2401.12739) and [mobility](https://arxiv.org/abs/2401.06794).
 
-Inspired by how models can reveal hidden patterns in science, I now harness AI to drive transformative change. I host the [self-supervised seminar](https://niusj03.github.io/23summer/), which is supported by [Chao Wang](https://wangcmath.github.io) and joined the [NUS-WING](https://wing.comp.nus.edu.sg/) group as research assistant from Jan to May 2024, advised by [Min-Yen Kan](https://scholar.google.com/citations?user=aNVcd3EAAAAJ&hl=en).
+Inspired by how models can reveal hidden patterns in science, I now harness AI to drive transformative change. I host the [self-supervised seminar](https://niusj03.github.io/23summer/), which is supported by [Chao Wang](https://wangcmath.github.io) and joined the [NUS-WING](https://wing.comp.nus.edu.sg/) group as research assistant from Jan to May 2024, advised by [Min-Yen Kan](https://scholar.google.com/citations?user=aNVcd3EAAAAJ&hl=en). Currently, I am working with [Prof. Julian Mcauley](http://julianmcauley.com) on catastrophic forgetting in LLMs.
 
-I love music! This is one of my passion apart from coding and math. I play both cello and piano, and I used to be a principle cellist of the SUSTech Harmonic Symphonic Orchestra. I also produce music in my free time.
+I love music! This is one of my passion apart from coding and math. I play both cello and piano, and I used to be a principle cellist of the SUSTech Harmonic Symphonic Orchestra. I also produce music and [drawing](https://jiangxunyi.github.io/post/MyDrawingGallary/javascript/) in my free time.
 
