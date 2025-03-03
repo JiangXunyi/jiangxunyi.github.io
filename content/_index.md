@@ -75,19 +75,6 @@ sections:
               A comprehensive experiments for catasrophic forgetting in LLMs with task-specific fine-tuning.
               * Deployed PEFT and LoRA for efficient fine-tuning.
               * Using Bayesian methods to analyze the catasrophic forgetting.
-        # - title: Data Engineer Intern
-        #   company: Shanghai Harbor eLogistics Software Co., Ltd
-        #   company_url: https://www.shharbor.com/
-        #   company_logo: 
-        #   location: Shanghai, China
-        #   date_start: '2024-07-01'
-        #   date_end: '2024-09-30'
-        #   description: |2-
-        #       Responsibilities include:
-
-        #       * Contributed to the development of the empty container weekly report system by writing complex MySQL queries and optimizing the data reporting process, enhancing the accuracy of scheduling decisions and improving operational efficiency.
-        #       * Took responsibility for frontend design and maintenance in SIPG Group's project management system, utilizing the Vue.js framework for development and bug fixing. The improvements in UI/UX significantly enhanced system responsiveness and user experience.
-        #       * Strategically supported business units in the BI product selection process, improving production efficiency and data management capabilities, and driving the group's digital transformation.
 
         - title: Research Assistant
           company: National University of Singapore
@@ -269,20 +256,20 @@ sections:
       email: xunyijiang001@gmail.com
       # appointment_url: 'https://calendly.com'
       address:
-        street: National University of Singapore
-        city: Singapore
-        region: Singapore
+        street: University of California, San Diego
+        city: San Diego
+        region: California
         # postcode: 
-        country: Singapore
-        country_code: SG
-      directions: School of Computing
+        country: United States
+        country_code: US
+      directions: Computer Science and Engineering
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
       #   - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '1.29595'
-        longitude: '103.77525'  
+        latitude: '32.7157'
+        longitude: '-117.1611'  
       contact_links:
         - icon: twitter
           icon_pack: fab
