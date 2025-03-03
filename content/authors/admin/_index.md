@@ -11,29 +11,31 @@ last_name: Jiang
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🎻
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Master of Science in CS @ UCSD <br> BS in Data Science @ SUSTech
+role: Master of Science in CS @ [🇺🇸UCSD](https://ucsd.edu) <br> BS in Data Science @ [🇨🇳SUSTech](https://www.sustech.edu.cn)
 
-# Organizations/Affiliations to show in About widget
-organizations:
-  - name: University of California, San Diego
-    url: https://ucsd.edu
-  - name: Southern University of Science and Technology (SUSTech)
-    url: https://www.sustech.edu.cn
+# # Organizations/Affiliations to show in About widget
+# organizations:
+#   - name: University of California, San Diego
+#     url: https://ucsd.edu
+#   - name: Southern University of Science and Technology (SUSTech)
+#     url: https://www.sustech.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include self-supervised learning, computer vision and natural language processing.
+bio: My research interests include audio-vision models, AI for creativity🎻, and controlable AI generation.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Audio-Vision Models
+  - AI for Creativity 🎹
+  - Controlable AI Generation
+  - Self-Supervised Learning
+  - Catastrophic Forgetting in LLMs
 
 # Education to show in About widget
 education:
@@ -123,6 +125,17 @@ social:
 highlight_name: true
 ---
 
-Xunyi Jiang is an graduate student of Computer Science at University of California, San Diego. She finished her undergraduate study at SUSTech(Southern University of Science and Technology, Shenzhen). She graduated with distinction, being recognized as one of the top ten graduates from the School of Science at SUSTech.
+<!-- Xunyi Jiang is an graduate student of Computer Science at University of California, San Diego. She finished her undergraduate study at SUSTech(Southern University of Science and Technology, Shenzhen). She graduated with distinction, being recognized as one of the top ten graduates from the School of Science at SUSTech.
 
-She is interested in self-supervised learning, computer vision and natural language processing. She is currently working on self-supervised learning for computer vision and natural language processing. She joined into Yifang Ma's research group in 2021. Participated in the [self-supervised seminar](https://niusj03.github.io/23summer/) and joined into the NUS-WING group in Jan. 2024. She is also a principle cellist of the SUSTech Harmonic Symphonic Ochestra.
+She is interested in self-supervised learning, computer vision and natural language processing. She is currently working on self-supervised learning for computer vision and natural language processing. She joined into Yifang Ma's research group in 2021. Participated in the [self-supervised seminar](https://niusj03.github.io/23summer/) and joined into the NUS-WING group in Jan. 2024. She is also a principle cellist of the SUSTech Harmonic Symphonic Ochestra. -->
+
+Hi! 👋🏻 I am Xunyi Jiang, a master student of Computer Science and Engineering at [UCSD](https://ucsd.edu). I graduated from [SUSTech](https://www.sustech.edu.cn), being recognized as one of the top ten graduates from the School of Science at SUSTech and Oustanding Thesis.
+
+> *Physicists seek order in chaos through equations, while statisticians find meaning where equations fail.*
+
+My research journey began with using statistical models to explain the development of the scientific community—science for science—under the guidance of Professor [Yifang Ma](https://scholar.google.com/citations?user=v6f9Fy8AAAAJ&hl=en), related with [hierarchy](https://arxiv.org/abs/2401.12739) and [mobility](https://arxiv.org/abs/2401.06794).
+
+Inspired by how models can reveal hidden patterns in science, I now harness AI to drive transformative change. I host the [self-supervised seminar](https://niusj03.github.io/23summer/), which is supported by [Chao Wang](https://wangcmath.github.io) and joined the [NUS-WING](https://wing.comp.nus.edu.sg/) group as research assistant from Jan to May 2024, advised by [Min-Yen Kan](https://scholar.google.com/citations?user=aNVcd3EAAAAJ&hl=en).
+
+I love music! This is one of my passion apart from coding and math. I play both cello and piano, and I used to be a principle cellist of the SUSTech Harmonic Symphonic Orchestra. I also produce music in my free time.
+
