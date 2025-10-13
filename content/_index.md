@@ -197,14 +197,14 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   # 如果要放文章发表的话就取消这里的注释    
-  # - block: markdown
-  #   content:
-  #     title: Gallery
-  #     subtitle: ''
-  #     # text: |-
-  #     #    {{< gallery album="demo" >}}
-  #   design:
-  #     columns: '1'
+  - block: markdown
+    content:
+      title: Gallery
+      subtitle: ''
+      # text: |-
+      #    {{< gallery album="demo" >}}
+    design:
+      columns: '1'
   # - block: collection
   #   id: featured
   #   content:

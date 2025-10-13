@@ -27,15 +27,15 @@ role: Master of Science in CS @ [🇺🇸UCSD](https://ucsd.edu) <br> BS in Data
 #     url: https://www.sustech.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include audio-vision models, AI for creativity🎻, and controlable AI generation.
+bio: My research interests include multi-modal AI, AI for creativity🎻, and Trustworthy LLMs.
 
 # Interests to show in About widget
 interests:
-  - Audio-Vision Models
+  - Multi-Modal AI
   - AI for Creativity 🎹
   - Controlable AI Generation
   - Self-Supervised Learning
-  - Catastrophic Forgetting in LLMs
+  - Trustworthy LLMs
 
 # Education to show in About widget
 education:
@@ -55,7 +55,7 @@ education:
 skills:
   - name: Technical
     items:
-      - name: LLMs, PEFT, Transformers🤗, PyTorch
+      - name: LLMs, Multi-Modality, PyTorch
         description: ''
         percent: 100
         icon: python
@@ -125,13 +125,15 @@ social:
 highlight_name: true
 ---
 
-Hi! 👋🏻 I am Xunyi Jiang, a master student of Computer Science and Engineering at [UCSD](https://ucsd.edu). I graduated from [SUSTech](https://www.sustech.edu.cn), being recognized as one of the top ten graduates from the School of Science at SUSTech and Oustanding Thesis.
+Hi! 👋🏻 I am Xunyi Jiang, a 2nd-year master student of Computer Science and Engineering at [UCSD](https://ucsd.edu), advised by [Prof. Julian Mcauley](https://cseweb.ucsd.edu/~jmcauley/) and [Prof. Iran Roman](https://iranroman.github.io/) (Queen Mary University of London). I obtained my bachelor's degree at [SUSTech](https://www.sustech.edu.cn), being recognized as one of the top ten graduates from the School of Science at SUSTech and Outstanding Thesis.
+I was fortunate to be advised by [Min-Yen Kan](https://scholar.google.com/citations?user=aNVcd3EAAAAJ&hl=en) in [NUS-WING](https://wing.comp.nus.edu.sg/) group.
 
-> *Physicists seek order in chaos through equations, while statisticians find meaning where equations fail.*
+My research interests include multi-modal AI, AI for creativity🎻, and Trustworthy LLMs. I am passionate about exploring how AI can augment human creativity and enhance artistic expression. I have experience working on projects involving multimodality model, symbolic music generation, and optical music recognition. I am also interested in the ethical implications of AI in creative fields and strive to develop models that are both innovative and responsible.
 
-My research journey began with using statistical models to explain the development of the scientific community—science for science—under the guidance of Professor [Yifang Ma](https://scholar.google.com/citations?user=v6f9Fy8AAAAJ&hl=en), related with [hierarchy](https://arxiv.org/abs/2401.12739) and [mobility](https://arxiv.org/abs/2401.06794).
+<!-- My research journey began with using statistical models to explain the development of the scientific community—science for science—under the guidance of Professor [Yifang Ma](https://scholar.google.com/citations?user=v6f9Fy8AAAAJ&hl=en), related with [hierarchy](https://arxiv.org/abs/2401.12739) and [mobility](https://arxiv.org/abs/2401.06794). -->
 
-Inspired by how models can reveal hidden patterns in science, I now harness AI to drive transformative change. I host the [self-supervised seminar](https://niusj03.github.io/23summer/), which is supported by [Chao Wang](https://wangcmath.github.io) and joined the [NUS-WING](https://wing.comp.nus.edu.sg/) group as research assistant from Jan to May 2024, advised by [Min-Yen Kan](https://scholar.google.com/citations?user=aNVcd3EAAAAJ&hl=en). Currently, I am working with [Prof. Julian Mcauley](http://julianmcauley.com) on catastrophic forgetting in LLMs.
+<!-- Inspired by how models can reveal hidden patterns in science, I now harness AI to drive transformative change. I host the [self-supervised seminar](https://niusj03.github.io/23summer/), which is supported by [Chao Wang](https://wangcmath.github.io) and joined the [NUS-WING](https://wing.comp.nus.edu.sg/) group as research assistant from Jan to May 2024, advised by [Min-Yen Kan](https://scholar.google.com/citations?user=aNVcd3EAAAAJ&hl=en). Currently, I am working with [Prof. Julian Mcauley](http://julianmcauley.com) on Trustworthy LLMs. -->
 
 I love music! This is one of my passion apart from coding and math. I play both cello and piano, and I used to be a principle cellist of the SUSTech Harmonic Symphonic Orchestra. I also produce music and [drawing](https://jiangxunyi.github.io/post/MyDrawingGallary/javascript/) in my free time.
 
+Feel free to reach out to me via [email](mailto:xunyijiang001@gmail.com) for any collaboration or just to say hi! 😊
