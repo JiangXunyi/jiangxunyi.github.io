@@ -70,12 +70,10 @@ sections:
           date_start: '2025-02-20'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              A comprehensive experiments for catasrophic forgetting in LLMs with task-specific fine-tuning.
-              * Deployed PEFT and LoRA for efficient fine-tuning.
-              * Using Bayesian methods to analyze the catasrophic forgetting.
-
+            Working on:
+            - **Trustworthy LLMs**: Exploring methods to mitigate hallucinations in large language models, ensuring the reliability and accuracy of generated content.
+            - **Controllable Symbolic Music Generation**: Developing Steering techniques to guide the music generation process, allowing for confusion and continues control over the output style.
+            - **Music Editing Evaluation**: Assessing the effectiveness of music editing tools and techniques in enhancing the creative process.
         - title: Research Assistant
           company: National University of Singapore
           company_url: https://www.comp.nus.edu.sg/
