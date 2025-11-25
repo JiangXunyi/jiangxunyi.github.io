@@ -26,22 +26,22 @@ printf("%d\n", b[1]); // 3
 ```
 
 
-## 内存管理和释放
-5. 内存管理：new 与 delete
+## Memory Management and Deallocation
+5. Memory Management: new and delete
 
-使用 new 分配的内存需要使用 delete 释放，以避免内存泄漏。
+Memory allocated using new needs to be freed using delete to avoid memory leaks.
 
-释放单个对象：
+Release single object:
 ```cpp
-int* s = new int; // 分配内存
-*s = 10;          // 使用内存
-delete s;         // 释放内存
-s = nullptr;      // 避免悬挂指针
+int* s = new int; // allocate memory
+*s = 10;          // use memory
+delete s;         // free memory
+s = nullptr;      // avoid dangling pointer
 ```
-释放数组：
+Release array:
 ```cpp
-int* arr = new int[5]; // 分配数组内存
-// 使用数组
-delete[] arr;          // 释放数组内存
+int* arr = new int[5]; // allocate array memory
+// use array
+delete[] arr;          // free array memory
 arr = nullptr;  
 ```

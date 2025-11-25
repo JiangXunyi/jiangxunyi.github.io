@@ -34,7 +34,7 @@ authors:
 
 tags:
   - Academic
-  - 开源
+  - Open Source
 
 categories:
   - Study Notes
@@ -45,25 +45,25 @@ enable_math: True
 
 # The Useful Command Lines 
 **Xunyi Jiang**
-## 永久添加到 PATH
+## Permanently Add to PATH
 
-为了永久添加 `conda` 到你的 `PATH`，你需要将上述 `export` 命令添加到你的 shell 配置文件中，如 `.bashrc` 或 `.bash_profile`（取决于你使用的 shell 和操作系统）。
+To permanently add `conda` to your `PATH`, you need to add the above `export` command to your shell configuration file, such as `.bashrc` or `.bash_profile` (depending on the shell and operating system you use).
 
-1. 打开你的 shell 配置文件。如果你使用的是 bash，通常是 `.bashrc` 或 `.bash_profile`：
+1. Open your shell configuration file. If you're using bash, it's usually `.bashrc` or `.bash_profile`:
 
    ```bash
    nano ~/.bashrc
    ```
 
-2. 在文件的末尾添加以下行：
+2. Add the following line at the end of the file:
 
    ```bash
    export PATH=~/miniconda3/bin:$PATH
    ```
 
-3. 保存并关闭文件。（如果你使用的是 nano，可以按 `Ctrl + O` 保存，然后按 `Ctrl + X` 退出。）
+3. Save and close the file. (If you're using nano, you can press `Ctrl + O` to save, then press `Ctrl + X` to exit.)
 
-4. 为了使更改生效，你需要重新加载配置文件，可以通过运行以下命令或者关闭并重新打开你的终端：
+4. To make the changes take effect, you need to reload the configuration file, which can be done by running the following command or by closing and reopening your terminal:
 
    ```bash
    source ~/.bashrc
@@ -239,7 +239,7 @@ conda activate myenv
 #PBS -P xunyi
 #PBS -q ai
 
-# 加载Anaconda环境
+# Load Anaconda environment
 echo "Python interpreter: $(which python)"
 module load cray-python/3.9.7.1
 # source activate /home/users/nus/e1325135/miniconda3/envs/llms
@@ -248,14 +248,14 @@ conda activate llms
 echo $CONDA_DEFAULT_ENV
 
 
-# 进入你的工作目录（如果有的话）
+# Enter your working directory (if applicable)
 cd scratch/llama2_inspire
 
-# 执行fine-tuning脚本，这里假设是一个Python脚本
-# 你需要根据你的具体情况修改脚本名称和路径，以及传递给它的参数
+# Execute fine-tuning script, assuming it's a Python script here
+# You need to modify the script name and path according to your specific situation, as well as the parameters passed to it
 # python fine_tune_llama2.py 
 
-# 修改为直接指定解释器路径
+# Modified to directly specify interpreter path
 /home/users/nus/e1325135/miniconda3/envs/llms/bin/python fine_tune_llama2.py
 ```
 
@@ -297,20 +297,20 @@ Download file: scp e1325135@aspire2a.nus.edu.sg:~/scratch/scripts/ProjectCode/Da
 scp e1325135@aspire2a.nus.edu.sg:~/scratch/scripts/ProjectCode/dataset/restuls/data0416/my_info_v3.csv /Users/xunyijiang/Documents/StudyMaterials/2024Spring/CRS/explainableCRS/ProjectCode/dataset/results/data0416/movie_db.csv
 ```
 
-## 查看GPU的线程使用情况
+## Check GPU Thread Usage
 ```bash
-fuser -v /dev/nvidia* 
+fuser -v /dev/nvidia* 
 ```
-## 批量删除显卡4的进程
+## Batch Delete Processes on GPU 4
 ```bash
-fuser -v /dev/nvidia4 |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' |  sh
+fuser -v /dev/nvidia4 |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' |  sh
 ```
 
 ## Remote SSH
 1. Why I need SSH?
-- 安全性更高：SSH 使用加密密钥对（私钥和公钥）来认证，而不是用户名和密码。这使得你的操作更加安全，特别是在公共网络上。
-- 免密登录：一旦你设置好了 SSH 密钥并将公钥添加到 GitHub 上，你就不需要每次操作都输入用户名和密码。这极大地简化了操作。
-- 避免 HTTP 限制：在某些网络环境中，HTTP 可能被限制或会遇到如你之前所见的 HTTP2 framing 层的问题。SSH 通常不受这些限制。
+- Higher security: SSH uses encrypted key pairs (private key and public key) for authentication instead of username and password. This makes your operations more secure, especially on public networks.
+- Password-free login: Once you set up SSH keys and add the public key to GitHub, you don't need to enter username and password for every operation. This greatly simplifies operations.
+- Avoid HTTP restrictions: In some network environments, HTTP may be restricted or encounter HTTP2 framing layer problems as you've seen before. SSH is usually not subject to these restrictions.
 
 2. How to set
 - First we need to generate ssh key:
@@ -326,14 +326,14 @@ I use this method to solve the problem of unsuccessful push.
 
 
 
-## 同步远程文件夹
+## Sync Remote Folders
 ```bash
 rsync -avz --delete /path/to/local/project/ ubuntu@ec2-35-94-87-47.us-west-2.compute.amazonaws.com:pa1
 ```
 rsync -avz --delete /Users/xunyijiang/Documents/AStudyUCSD/2024Fall/CSE260/PAs/PA1/pa1-faz007-xuj003/ ubuntu@172.31.54.108:~/pa1
 
 
-## brew 查看路径
+## Check brew Path
 ```bash
 brew info openblas
 ```

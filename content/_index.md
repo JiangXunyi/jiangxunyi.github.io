@@ -42,14 +42,16 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
+  - block: collection
     content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
+      title: Publications
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
     design:
-      columns: '1'
+      columns: '2'
+      view: citation
   - block: experience
     content:
       title: Research
@@ -71,9 +73,21 @@ sections:
           date_end: ''
           description: |2-
             Working on:
-            - **Trustworthy LLMs**: Exploring methods to mitigate hallucinations in large language models, ensuring the reliability and accuracy of generated content.
-            - **Controllable Symbolic Music Generation**: Developing Steering techniques to guide the music generation process, allowing for confusion and continues control over the output style.
-            - **Music Editing Evaluation**: Assessing the effectiveness of music editing tools and techniques in enhancing the creative process.
+            
+            <details>
+            <summary><strong>Trustworthy LLMs</strong></summary>
+            Exploring methods to mitigate hallucinations in large language models, ensuring the reliability and accuracy of generated content.
+            </details>
+            
+            <details>
+            <summary><strong>Controllable Symbolic Music Generation</strong></summary>
+            Developing Steering techniques to guide the music generation process, allowing for confusion and continuous control over the output style.
+            </details>
+            
+            <details>
+            <summary><strong>Music Editing Evaluation</strong></summary>
+            Assessing the effectiveness of music editing tools and techniques in enhancing the creative process.
+            </details>
         - title: Research Assistant
           company: National University of Singapore
           company_url: https://www.comp.nus.edu.sg/
@@ -82,13 +96,16 @@ sections:
           date_start: '2024-01-01'
           date_end: '2024-05-31'
           description: |2-
-              Responsibilities include:
-
-              CLUE-ReDial: Leveraging Large Language Models for Generating Comprehensive Dataset with UrLs and
-              Explanation
+              **CLUE-ReDial**: Leveraging Large Language Models for Generating Comprehensive Dataset with URLs and Explanation
+              
+              <details>
+              <summary><strong>View detailed responsibilities</strong></summary>
+              
               * Designed and implemented a multi-agent framework leveraging RAG and LLMs, achieving a 4× efficiency boost in generating interpretable recommendation explanations. Expanded the ReDial dataset to 40k high-quality utterances for fine-tuning conversational LLMs, enhancing domain-specific accuracy in movie recommendations.
               * Designed a multi-agent framework, leveraging an early-stop module in the self-refine process to generate comprehensive and interpretable recommendation explanations, boosting transparency in recommendations.
               * Applied web crawling techniques to create a movie dataset containing 25k entries, using Python, PyTorch, LaTeX, and the Singapore National High-Performance Computing (HPC) platform.
+              
+              </details>
 
         - title: Research Assistant
           company: Yifang Ma's Research Group
@@ -98,15 +115,28 @@ sections:
           date_start: '2022-06-01'
           date_end: '2023-08-31'
           description: |2-
-              Responsibilities include:
               Worked on the OpenAlex and ORCID databases to analyze the relationship between university rankings and the mobility of researchers.
+              
+              <details>
+              <summary><strong>View detailed responsibilities</strong></summary>
+              
               * Extracted education and hiring networks from research paper publications.
               * Ranked Chinese universities based on extracted database information.
               * Implemented a Multi-Variate Regression (MVR) model for ranking.
               * Applied Markov Chain Monte Carlo (MCMC) and burn-in techniques to ensure the stability of convergence.
               * Visualized researcher mobility and constructed a null model to compare the hierarchical structures of research institutions.
+              
+              </details>
     design:
       columns: '2'
+  - block: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -195,14 +225,14 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   # 如果要放文章发表的话就取消这里的注释    
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      # text: |-
-      #    {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     # text: |-
+  #     #    {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
   # - block: collection
   #   id: featured
   #   content:
@@ -214,20 +244,6 @@ sections:
   #   design:
   #     columns: '2'
   #     view: card
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: |-
-  #       {{% callout note %}}
-  #       Quickly discover relevant content by [filtering publications](./publication/).
-  #       {{% /callout %}}
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: true
-  #   design:
-  #     columns: '2'
-  #     view: citation
   # - block: collection
   #   id: talks
   #   content:
