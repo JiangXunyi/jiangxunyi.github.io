@@ -49,6 +49,11 @@ sections:
       subtitle: ''
       text: |
         <div style="height: 300px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background-color: #fafafa;">
+
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #e0e0e0;">
+          <span style="font-weight: 500;">One paper accepted by EACL Oral 🏆</span>
+          <span style="color: #999; white-space: nowrap; margin-left: 20px;">Jan 2026</span>
+        </div>
         
         <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #e0e0e0;">
           <span style="font-weight: 500;">I am a contributor at <a href="https://www.open-thoughts.ai/" style="color: #0066cc; text-decoration: none;">OpenThoughts-Agent</a>!</span>
