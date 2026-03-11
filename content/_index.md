@@ -96,14 +96,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: (Incoming) Intern - Research Scientist
-          company: Adobe Research
-          company_url: https://adobe.com/
-          company_logo: adobe  
-          location: San Jose, CA
-          date_start: '2026-06-01'
-          date_end: '2026-09-01'
-          description: Working on Agentic AI for Creative Applications.
+        # - title: (Incoming) Ph.D. - Research Scientist
+        #   company: New York
+        #   company_url: https://adobe.com/
+        #   company_logo: adobe  
+        #   location: San Jose, CA
+        #   date_start: '2026-06-01'
+        #   date_end: '2026-09-01'
+        #   description: Working on Agentic AI for Creative Applications.
         - title: Research Assistant
           company: University of California, San Diego
           company_url: https://ucsd.edu/
