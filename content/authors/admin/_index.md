@@ -124,7 +124,7 @@ social:
 highlight_name: true
 ---
 
-Hi! 👋🏻 I am Xunyi Jiang, a 2nd-year master student of Computer Science and Engineering at [UCSD](https://ucsd.edu). I am a research assistant advised by [Prof. Julian Mcauley](https://cseweb.ucsd.edu/~jmcauley/) and [Prof. Iran Roman](https://iranroman.github.io/) (Queen Mary University of London). I obtained my bachelor's degree at [SUSTech](https://www.sustech.edu.cn), being recognized as one of the top ten graduates from the School of Science at SUSTech and Outstanding Thesis.
+Hi! 👋🏻 I am Xunyi Jiang, a 2nd-year master student of Computer Science and Engineering at [UCSD](https://ucsd.edu) and incoming PhD student at [NYU](https://www.nyu.edu). I am a research assistant advised by [Prof. Julian Mcauley](https://cseweb.ucsd.edu/~jmcauley/) and [Prof. Iran Roman](https://iranroman.github.io/) (Queen Mary University of London). I obtained my bachelor's degree at [SUSTech](https://www.sustech.edu.cn), being recognized as one of the top ten graduates from the School of Science at SUSTech and Outstanding Thesis.
 I was fortunate to be advised by [Prof. Min-Yen Kan](https://scholar.google.com/citations?user=aNVcd3EAAAAJ&hl=en) in [NUS-WING](https://wing.comp.nus.edu.sg/) group.
 
 My research interests include personalized agent systems, AI for creativity🎻, and memory- augmented LLMs. 
