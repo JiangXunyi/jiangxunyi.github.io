@@ -341,20 +341,17 @@ sections:
       email: xunyijiang001@gmail.com
       # appointment_url: 'https://calendly.com'
       address:
-        street: University of California, San Diego
-        city: San Diego
-        region: California
+        street: 60 5th Ave, New York, NY 10011
+        city: New York
+        region: New York
         # postcode: 
         country: United States
         country_code: US
-      directions: Computer Science and Engineering
-      # office_hours:
-      #   - 'Monday 10:00 to 13:00'
-      #   - 'Wednesday 09:00 to 10:00'
-      # Choose a map provider in `params.yaml` to show a map from these coordinates
+      directions: Courant Institute of Mathematical Sciences
+
       coordinates:
-        latitude: '32.7157'
-        longitude: '-117.1611'  
+        latitude: '40.7350'
+        longitude: '-73.9944'
       contact_links:
         - icon: twitter
           icon_pack: fab

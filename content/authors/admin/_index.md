@@ -38,10 +38,13 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Master of Science in Computer Science 
+    - course: Ph.D. in Computer Science 
+      institution: New York University
+      year: 2026-
+    - course: M.S. in Computer Science 
       institution: University of California, San Diego
-      year: 2024-2026(Estimated)
-    - course: BS in Data Science
+      year: 2024-2026
+    - course: B.S. in Data Science
       institution: Southern University of Science and Technology
       year: 2020-2024
     - course: High School
