@@ -48,28 +48,68 @@ sections:
       title: News🔥
       subtitle: ''
       text: |
-        <div style="height: 300px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background-color: #fafafa;">
+        <style>
+        .news-feed {
+          height: 300px;
+          overflow-y: auto;
+          border: 1px solid rgba(128, 128, 128, 0.25);
+          border-radius: 8px;
+          padding: 4px 20px;
+          background-color: rgba(128, 128, 128, 0.08);
+          color: inherit;
+        }
+        .news-feed .news-item {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 20px;
+          padding: 12px 0;
+          border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+        }
+        .news-feed .news-item:last-child {
+          border-bottom: none;
+        }
+        .news-feed .news-title {
+          font-weight: 500;
+        }
+        .news-feed .news-date {
+          white-space: nowrap;
+          opacity: 0.65;
+        }
+        </style>
 
-        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #e0e0e0;">
-          <span style="font-weight: 500;">One paper accepted by EACL Oral 🏆</span>
-          <span style="color: #999; white-space: nowrap; margin-left: 20px;">Jan 2026</span>
+        <div class="news-feed">
+
+        <div class="news-item">
+          <span class="news-title">One 1st author paper accepted by EMNLP main</span>
+          <span class="news-date">Aug 2026</span>
         </div>
-        
-        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #e0e0e0;">
-          <span style="font-weight: 500;">I am a contributor at <a href="https://www.open-thoughts.ai/" style="color: #0066cc; text-decoration: none;">OpenThoughts-Agent</a>!</span>
-          <span style="color: #999; white-space: nowrap; margin-left: 20px;">Dec 2025</span>
+
+        <div class="news-item">
+          <span class="news-title">3 papers accepted by ISMIR 2026!</span>
+          <span class="news-date">July 2026</span>
         </div>
-        
-        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #e0e0e0;">
-          <span style="font-weight: 500;">One paper is accepted by NeurIPS 2025 <a href="https://aiformusicworkshop.github.io/" style="color: #0066cc; text-decoration: none;">AI4Music</a>!</span>
-          <span style="color: #999; white-space: nowrap; margin-left: 20px;">Oct 2025</span>
+
+        <div class="news-item">
+          <span class="news-title">One paper accepted by EACL Oral 🏆</span>
+          <span class="news-date">Jan 2026</span>
         </div>
-        
-        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #e0e0e0;">
-          <span style="font-weight: 500;">One paper is accepted by NeurIPS 2025 <a href="https://sites.google.com/view/llm-eval-workshop" style="color: #0066cc; text-decoration: none;">LLMEval</a>!</span>
-          <span style="color: #999; white-space: nowrap; margin-left: 20px;">Oct 2025</span>
+
+        <div class="news-item">
+          <span class="news-title">I am a contributor at <a href="https://www.open-thoughts.ai/">OpenThoughts-Agent</a>!</span>
+          <span class="news-date">Dec 2025</span>
         </div>
-        
+
+        <div class="news-item">
+          <span class="news-title">One paper is accepted by NeurIPS 2025 <a href="https://aiformusicworkshop.github.io/">AI4Music</a>!</span>
+          <span class="news-date">Oct 2025</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-title">One paper is accepted by NeurIPS 2025 <a href="https://sites.google.com/view/llm-eval-workshop">LLMEval</a>!</span>
+          <span class="news-date">Oct 2025</span>
+        </div>
+
         </div>
     design:
       columns: '1'
@@ -104,6 +144,27 @@ sections:
         #   date_start: '2026-06-01'
         #   date_end: '2026-09-01'
         #   description: Working on Agentic AI for Creative Applications.
+        - title: PhD
+          company: New York University
+          company_url: https://www.nyu.edu/
+          company_logo: nyu  
+          location: New York, NY
+          date_start: '2026-09-01'
+          date_end: ''
+          description: |2-
+            Working on:
+            
+            <details>
+            <summary><strong>LLM Evaluation and Understanding</strong></summary>
+            Evaluating LLM training dynamics.
+            </details>
+
+            <details>
+            <summary><strong>Human-AI Collaboration</strong></summary>
+            Exploring methods to enhance collaboration between humans and AI systems in Deep Research, focusing on improving user experience and task efficiency.
+            </details>
+
+
         - title: Research Assistant
           company: University of California, San Diego
           company_url: https://ucsd.edu/

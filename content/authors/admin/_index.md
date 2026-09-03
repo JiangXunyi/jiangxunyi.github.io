@@ -27,14 +27,13 @@ role: PhD in CS @ [🇺🇸NYU](https://www.nyu.edu) <br> MS in CS @ [🇺🇸UC
 #     url: https://www.sustech.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include personalized agent systems, AI for creativity🎻, Agentic AI.
+bio: I am interested in LLM Evaluation, Human-AI collaboration, AI for creativity🎻.
 
 # Interests to show in About widget
 interests:
-  - Personalized agent systems 🤖
-  - AI for Creativity 🎹
-  - Agentic AI
-  - Memory-augmented LLMs
+  - LLM Evaluation and Understanding 🤖
+  - Human-AI Collaboration 🧑‍💻
+  - AI for Creativity and Music 🎹
 
 # Education to show in About widget
 education:
@@ -124,15 +123,13 @@ social:
 highlight_name: true
 ---
 
-Hi! 👋🏻 I am Xunyi Jiang, a 2nd-year master student of Computer Science and Engineering at [UCSD](https://ucsd.edu) and incoming PhD student at [NYU](https://www.nyu.edu). I am a research assistant advised by [Prof. Julian Mcauley](https://cseweb.ucsd.edu/~jmcauley/) and [Prof. Iran Roman](https://iranroman.github.io/) (Queen Mary University of London). I obtained my bachelor's degree at [SUSTech](https://www.sustech.edu.cn), being recognized as one of the top ten graduates from the School of Science at SUSTech and Outstanding Thesis.
-I was fortunate to be advised by [Prof. Min-Yen Kan](https://scholar.google.com/citations?user=aNVcd3EAAAAJ&hl=en) in [NUS-WING](https://wing.comp.nus.edu.sg/) group.
+Hi! 👋🏻 I am Xunyi Jiang, a 1st year PhD student at [NYU](https://www.nyu.edu) advised by [Hongyi Wen](https://whongyi.github.io/). Previously, I was fortunate to be advised by [Prof. Julian Mcauley](https://cseweb.ucsd.edu/~jmcauley/) at UCSD during my master's studies and [Prof. Yifang Ma](https://scholar.google.com/citations?user=v6f9Fy8AAAAJ&hl=en) during my undergraduate at [SUSTech](https://www.sustech.edu.cn).
 
-My research interests include personalized agent systems, AI for creativity🎻, and memory- augmented LLMs. 
 
-<!-- My research journey began with using statistical models to explain the development of the scientific community—science for science—under the guidance of Professor [Yifang Ma](https://scholar.google.com/citations?user=v6f9Fy8AAAAJ&hl=en), related with [hierarchy](https://arxiv.org/abs/2401.12739) and [mobility](https://arxiv.org/abs/2401.06794). -->
+I was always facinated by understanding complex systems and their behaviors. My recent research focus is on LLM understanding and evaluation, Human-AI collaboration, AI for creativity🎻, and memory- augmented LLMs. 
 
-<!-- Inspired by how models can reveal hidden patterns in science, I now harness AI to drive transformative change. I host the [self-supervised seminar](https://niusj03.github.io/23summer/), which is supported by [Chao Wang](https://wangcmath.github.io) and joined the [NUS-WING](https://wing.comp.nus.edu.sg/) group as research assistant from Jan to May 2024, advised by [Min-Yen Kan](https://scholar.google.com/citations?user=aNVcd3EAAAAJ&hl=en). Currently, I am working with [Prof. Julian Mcauley](http://julianmcauley.com) on Trustworthy LLMs. -->
 
-I love music! This is one of my passion apart from coding and math. I play both cello and piano, and I used to be a principle cellist of the SUSTech Harmonic Symphonic Orchestra. I also produce music and [drawing](https://jiangxunyi.github.io/post/MyDrawingGallary/javascript/) in my free time.
+
+I love music! This is one of my passion apart from coding and math. I play both cello and piano, and I am a member of [GG Ochestra](https://www.ggorchestra.org/). I used to be a principle cellist of the SUSTech Symphonic Orchestra. I also produce music and [drawing](https://jiangxunyi.github.io/post/MyDrawingGallary/javascript/) in my free time.
 
 Feel free to reach out to me via [email](mailto:xunyijiang001@gmail.com) for any collaboration or just to say hi! 😊
