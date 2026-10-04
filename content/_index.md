@@ -81,17 +81,22 @@ sections:
         <div class="news-feed">
 
         <div class="news-item">
-          <span class="news-title">One 1st author paper accepted by EMNLP main</span>
+          <span class="news-title">Two papers are accepted by NeurIPS 2026!</span>
+          <span class="news-date">Sep 2026</span>
+        </div>
+
+        <div class="news-item">
+          <span class="news-title">One 1st author paper is accepted by EMNLP main!</span>
           <span class="news-date">Aug 2026</span>
         </div>
 
         <div class="news-item">
-          <span class="news-title">3 papers accepted by ISMIR 2026!</span>
+          <span class="news-title">Three papers are accepted by ISMIR 2026!</span>
           <span class="news-date">July 2026</span>
         </div>
 
         <div class="news-item">
-          <span class="news-title">One paper accepted by EACL Oral 🏆</span>
+          <span class="news-title">One paper is accepted by EACL Oral 🏆</span>
           <span class="news-date">Jan 2026</span>
         </div>
 
