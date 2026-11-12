@@ -27,11 +27,12 @@ role: PhD in CS @ [🇺🇸NYU](https://www.nyu.edu) <br> MS in CS @ [🇺🇸UC
 #     url: https://www.sustech.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in LLM Evaluation, Human-AI collaboration, AI for creativity🎻.
+bio: I am interested in LLM Evaluation, Generative Engine Optimization, Human-AI collaboration, AI for creativity🎻.
 
 # Interests to show in About widget
 interests:
   - LLM Evaluation and Understanding 🤖
+  - Generative Engine Optimization ⚡
   - Human-AI Collaboration 🧑‍💻
   - AI for Creativity and Music 🎹
 
@@ -129,8 +130,8 @@ highlight_name: true
 Hi! 👋🏻 I am Xunyi Jiang, a 1st year PhD student at [NYU](https://www.nyu.edu) advised by [Hongyi Wen](https://whongyi.github.io/). Previously, I was fortunate to be advised by [Prof. Julian Mcauley](https://cseweb.ucsd.edu/~jmcauley/) at UCSD during my master's studies and [Prof. Yifang Ma](https://scholar.google.com/citations?user=v6f9Fy8AAAAJ&hl=en) during my undergraduate at [SUSTech](https://www.sustech.edu.cn).
 
 
-I was always facinated by understanding complex systems and their behaviors. My recent research focus is on LLM understanding and evaluation, Human-AI collaboration, AI for creativity🎻, and memory- augmented LLMs. 
 
+I was always facinated by understanding complex systems and their behaviors. My recent research focus is on LLM understanding and evaluation, Generative Engine Optimization, Human-AI collaboration, AI for creativity🎻.
 
 
 I love music! This is one of my passion apart from coding and math. I play both cello and piano, and I am a member of [GG Ochestra](https://www.ggorchestra.org/). I used to be a principle cellist of the SUSTech Symphonic Orchestra. I also produce music and [drawing](https://jiangxunyi.github.io/post/MyDrawingGallary/javascript/) in my free time.
