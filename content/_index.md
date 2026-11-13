@@ -121,7 +121,25 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Publications
+      title: Selected Publications
+      text: |-
+        [Full publication list on Google Scholar](https://scholar.google.com/citations?user=tqgApqkAAAAJ&hl=en)
+
+        **First-author papers**
+      count: 0
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
+    id: selected-collaborations
+    content:
+      title: ''
+      text: '**Selected co-authored papers**'
+      count: 0
       filters:
         folders:
           - publication

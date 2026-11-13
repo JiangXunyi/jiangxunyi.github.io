@@ -9,7 +9,8 @@ authors:
 - David Arbour
 - Ritwik Sinha
 - Julian McAuley
-- Hongyi Wen*
+- Hongyi Wen
+author_notes: ["", "", "", "", "", "", "", "", "Corresponding author"]
 date: "2026-09-03T00:00:00Z"
 doi: ""
 
@@ -19,23 +20,24 @@ publishDate: "2026-08-29T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Accepted by EMNLP 2026"
-publication_short: "EMNLP Main"
+publication: "EMNLP 2026 (Main Conference)"
+publication_short: "EMNLP 2026 (Main)"
 
 abstract: >-
-  Skills, as a useful abstraction for the procedural capabilities of large language models (LLMs), capture how models perform structured, multi-step reasoning and program execution. Existing approaches typically treat skills as explicit, surface-level constructs specified through prompts or programs, leaving open the question of how such procedural capabilities are represented inside the model and whether they can be manipulated as structured objects in latent space. In this empirical study, we investigate whether procedural LLM skills can be represented as directions in activation space and whether vector-space operations over these directions can express skill-level behaviors. We find that procedural skills admit a vector-space representation: individual skill directions can be activated to shift model behavior; independently extracted directions can compose to form higher-level skills. Contrastive directions yield context-conditioned algorithmic personalization and optimization trajectories over skill directions evolve non-monotonically, with intermediate states often surpassing fully optimized solutions. These results support a representation-level view of procedural LLM skills， they admit a latent vector-space organization that allows direct manipulation through internal interventions.
+  Skills, as a useful abstraction for the procedural capabilities of large language models (LLMs), capture how models perform structured, multi-step reasoning and program execution. Existing approaches typically treat skills as explicit, surface-level constructs specified through prompts or programs, leaving open the question of how such procedural capabilities are represented inside the model and whether they can be manipulated as structured objects in latent space. In this empirical study, we investigate whether procedural LLM skills can be represented as directions in activation space and whether vector-space operations over these directions can express skill-level behaviors. We find that procedural skills admit a vector-space representation: individual skill directions can be activated to shift model behavior; independently extracted directions can compose to form higher-level skills. Contrastive directions yield context-conditioned algorithmic personalization and optimization trajectories over skill directions evolve non-monotonically, with intermediate states often surpassing fully optimized solutions. These results support a representation-level view of procedural LLM skills: they admit a latent vector-space organization that allows direct manipulation through internal interventions.
 
 tags:
-- Source Themes
-featured: false
+- Large Language Models
+- Activation Steering
+featured: true
 
 links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: https://arxiv.org/html/2608.29459v1
+url_pdf: https://arxiv.org/pdf/2608.29459
 # url_code: 'https://github.com/JiangXunyi/BenchAge'
 # url_dataset: '#'
 # url_poster: '#'
@@ -47,7 +49,7 @@ url_pdf: https://arxiv.org/html/2608.29459v1
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](problem_formulation.png)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -56,8 +58,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

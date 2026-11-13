@@ -106,10 +106,9 @@ social:
     label: Follow me on Twitter
     display:
       header: true
-      # ADD: if I have google schoolar, then I need to move the comment.
-  # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-  #   icon_pack: fas
-  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=tqgApqkAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/JiangXunyi

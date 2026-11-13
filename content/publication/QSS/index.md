@@ -1,5 +1,7 @@
 ---
 title: "Talent hat, cross-border mobility, and career development in China Open Access"
+# Omitted from the selected publications: Xunyi Jiang is the fourth author.
+draft: true
 authors:
 - Yurui Huang 
 - Xuesen Cheng 
